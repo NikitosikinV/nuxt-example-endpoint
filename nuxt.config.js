@@ -35,6 +35,10 @@ export default {
   modules: [
   ],
 
+  serverMiddleware: [
+    { path: "/", handler: "@/middleware/example.js" },
+  ],
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
