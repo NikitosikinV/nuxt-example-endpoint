@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "phrases",
+  "info": {
+    "name": "phrase"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hello": {
+      "type": "string"
+    }
+  }
+}
